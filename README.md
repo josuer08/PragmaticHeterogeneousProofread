@@ -37,7 +37,9 @@ And as they say on the blog we will check on how PHP is ~not~ a **predictable, c
 + HORRIBLE DEBBUGING EXPERIENCE [as expressed in this phpsadness post](http://phpsadness.com/sad/44)
 + ... I am done with the nonexisting error handling, there is more on the blog but it will all be tested
 + well, one more thing is that errors and exceptions are not the same so `try/catch` wont with errors and error handlers are not triggered by errors.
-
++ [functions are expensive](https://web.archive.org/web/20170704181231/http://www.phpwtf.org/php-function-calls-have-quite-some-overhead "yes, this is ancient, I know")
++ when calling a function the extra arguments are just ignored and missing arguments are just _NULL_ except with builtin functions where extra arguments raise an error.
++ OOP IS NONSENSICAL (yes, I know I promised no slander but we all saw it coming)
 
 
 ## The analogy
